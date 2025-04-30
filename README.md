@@ -32,11 +32,11 @@ All results are output as high-quality visualizations in the `results/` folder f
 - **Sell Signal**: When the short-term MA crosses **below** the long-term MA
 - MAs are computed using a rolling mean over adjustable window sizes
 
-### 🛑 Stop-Loss Logic
+### Stop-Loss Logic
 - After entering a trade, if price drops more than a user-defined **stop-loss %** (e.g., 2%), the strategy exits early
 - Helps avoid large losses during false breakouts or volatile periods
 
-### ⚙️ Optimization
+###  Optimization
 - Performs grid search over the following:
   - Short MA window: 5 to 30 (step 5)
   - Long MA window: 40 to 200 (step 10)
@@ -67,16 +67,16 @@ All results are output as high-quality visualizations in the `results/` folder f
 
 ##  Features
 
-- ✅ Full backtest engine for single-ticker stocks
-- ✅ Strategy optimization over MA windows and stop-loss thresholds
-- ✅ Sharpe Ratio and total return calculation
-- ✅ Visualization of:
+- Full backtest engine for single-ticker stocks
+- Strategy optimization over MA windows and stop-loss thresholds
+- Sharpe Ratio and total return calculation
+- Visualization of:
   - Buy/Sell signals
   - Cumulative strategy vs market returns
   - Drawdown curve
   - Sharpe Ratio vs Stop-Loss %
   - Final metrics summary card
-- ✅ Trade metrics (win rate, total trades, avg. return)
+-  Trade metrics (win rate, total trades, avg. return)
 
 ---
 
@@ -145,7 +145,7 @@ python main.py
 
 ---
 
-## ✨ Future Additions (Ideas)
+## Future Additions (Ideas)
 - CSV export of trade logs
 - Multi-ticker portfolio backtests
 - Integration with TA indicators like RSI, MACD
