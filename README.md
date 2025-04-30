@@ -8,7 +8,7 @@
 
 As a computer science student transitioning into Quantitative Finance, this project was an exciting opportunity to bridge both worlds. I wanted to explore how systematic strategies could be programmed, tested, and optimized using Python.
 
-What began as a basic backtester soon evolved into a full system that dynamically finds the best moving averages and stop-loss levels using Sharpe ratio optimization. I used this project to strengthen my understanding of financial metrics, backtesting logic, and performance visualization — and ultimately derive a strategy that outperformed the traditional buy & hold for TSLA.
+What began as a basic backtester soon evolved into a full system that dynamically finds the best moving averages and stop-loss levels using Sharpe ratio optimization. I used this project to strengthen my understanding of financial metrics, backtesting logic, and performance visualization and ultimately derive a strategy that outperformed the traditional buy & hold for TSLA.
 
 ---
 
